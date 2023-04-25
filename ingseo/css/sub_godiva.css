@@ -1,0 +1,29 @@
+@charset"utf-8";
+
+.left .container{background: #3c281f;}
+.left .container button{display: block; margin: 10px 0; background: none; border: none; color: #cdb376; font-size: 20px; font-family: "Roboto";}
+:focus{outline: none;}
+
+.right .frame .video_frame1{position: absolute; width: 11%; top: 51%; left: 3%; overflow: hidden;}
+.right .frame .video_frame2{position: absolute; width: 22%; top: 37%; left: 73.5%; overflow: hidden;}
+.right .frame .video_frame3{position: absolute; width: 60%; top: 5.5%; left: 18%; overflow: hidden;}
+
+.right .type_content tr:nth-child(1){font-family: 'Nunito Sans'}
+.right .type_content tr:nth-child(2){font-family: 'Parisienne'}
+.right .type_content tr:nth-child(3){height: 80px;}
+
+.right .comparison .sub_com{display: flex; justify-content: center; margin-top: 200px; font-size: 20px;}
+
+.right .comparison .plus{margin-top: 200px; text-align: center; height: 150vh; margin-bottom: 100px; font-size: 20px; min-height: 1500px;}
+.right .comparison .plus_page{margin-top: 30px; display: flex; justify-content: center;}
+.right .comparison .sub_page{width: 50%; margin-right: 50px; text-align: center;}
+.right .comparison .sub_page img{width: 80%; margin-top: 30px; box-shadow: 1px 1px 10px rgba(0,0,0,0.3); position: absolute;}
+.right .comparison .sub_page img:nth-child(1){left: 20%; z-index: 1; top: 40%}
+.right .comparison .sub_page img:nth-child(2){left: 10%; z-index: 2; top: 95%}
+.right .comparison .sub_page img:nth-child(3){}
+.right .comparison .banner{width: 30%; text-align: center;}
+.right .comparison .banner img{width: 100%;margin-top: 30px;}
+
+.right .comparison .re{position: absolute; left: 50%; bottom: 3%; z-index: 5;}
+.right .comparison .re_title{position: absolute; top: 45%; left: 8%; font-size: 18px; font-weight: bold; text-align: center;}
+.right .comparison .re_point{width: 300px;line-height: 50px; font-family: "Noto Sans KR"; position: absolute; top: 25%; right: 48%; font-size: 20px;}

@@ -1,0 +1,20 @@
+@charset"utf-8";
+
+@font-face {font-family: 'HSBombaram'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/HSBombaram.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+.left .container{background: #000aba;}
+.left .container button{display: block; margin: 10px 0; background: none; border: none; color: white; font-size: 20px; font-family: "Roboto";}
+:focus{outline: none;}
+
+.right .frame .video_frame2{position: absolute; width: 18%; top: 9.5%; left: 76%; overflow: hidden;}
+.right .frame .video_frame1{position: absolute; width: 76%; top: 5.5%; left: 6.5%; overflow: hidden;}
+
+.right .type_content tr:nth-child(1){font-family: 'HSBombaram'}
+.right .type_content tr:nth-child(2){font-family: 'Nanum Myeongjo'; height: 80px;}
+.right .type_content tr:nth-child(3){font-family: 'HSBombaram';}
+
+.right .comparison .new{margin-bottom: 100px; font-size: 20px; min-height: 1500px;}
+
+.right .comparison .re{position: absolute; right: 50%;  bottom: 10%; z-index: 5;}
+.right .comparison .re_title{position: absolute; top: 45%; right: 8%; font-size: 18px; font-weight: bold; text-align: center;}
+.right .comparison .re_point{width: 300px;line-height: 50px; font-family: "Noto Sans KR"; position: absolute; top: 25%; left: 48%; font-size: 20px;}

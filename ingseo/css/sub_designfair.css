@@ -1,0 +1,25 @@
+@charset"utf-8";
+
+@font-face { font-family: 'yg-jalnan'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'GmarketSansLight'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+.left .container{background: #cad6ec;}
+.left .container .logo{display: flex; justify-content: center;}
+.left .container .logo img{width: inherit;}
+.left .container button{display: block; margin: 10px 0; background: none; border: none;  font-size: 20px; font-family: "Roboto";}
+:focus{outline: none;}
+
+.right .frame{margin-left: 100px;}
+.right .frame .video_frame1{position: absolute; width: 26.5%; top: 9%; left: 17%; overflow: hidden;}
+.right .frame .video_frame2{position: absolute; width: 10%; top: 48%; left: 11.5%; overflow: hidden;}
+.right .frame .video_frame3{position: absolute; width: 51%; top: 22%; left: 38%; overflow: hidden;}
+
+.right .type_content td:nth-child(2){width: 180px !important;}
+.right .type_content tr:nth-child(1){font-family: 'yg-jalnan'; height: 40px;}
+.right .type_content tr:nth-child(2){font-family: 'GmarketSansLight'; height: 40px;}
+
+.right .comparison{margin-top: 100px !important;}
+.right .comparison .new{width: 90%; text-align: center; margin-bottom: 100px;}
+.right .comparison .new img{width: 100%; margin-top: 0; box-shadow: none !important;}
+
+

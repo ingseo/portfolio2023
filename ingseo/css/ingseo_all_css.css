@@ -1,0 +1,25 @@
+@charset"utf-8";
+
+/*전체*/
+*{padding: 0; margin: 0; position: relative; list-style: none;}
+html, body{width: 100%; height: 100%; font-family: 'Roboto'}
+img{display: block;}
+
+body{min-width: 1400px; background: #f0f0f0;}
+body a{text-decoration: none; color: inherit;}
+
+::selection{background: black; color: white;}
+:focus{outline: none;}
+.guide{display: none;}
+
+@media(max-width:1400px){
+    body{overflow: hidden;}
+    section{display: none !important;}
+    .guide{display: flex !important; font-family: "Noto Sans KR"; justify-content: center; align-items: center; width: 100vw; height: 100vh;}
+}
+
+
+/*menu*/
+.menu{height: 10%; position: fixed; top: 0; left: 0; width: 100%; z-index: 100;}
+.menu ul{display: flex; position: absolute; bottom: 0; right: 5%;}
+.menu ul li{padding: 0 5px; font-size: 30px; font-weight: 900; margin: 0 10px;}
