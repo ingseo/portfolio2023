@@ -36,7 +36,7 @@ body{overflow-y: hidden;}
 .section2 .text{position: absolute; font-size: 20px; left: -5%}
 .section2 .text3{top: 20%;}
 .section2 .text4{top: 45%;}
-.section2 .text .certificate, .section2 .text .skill{background: black; color: #f0f0f0; margin-bottom: 30px;}
+.section2 .text .certificate, .section2 .text .skill{background: black; color: #f0f0f0; margin-bottom: 30px; width: fit-content;}
 
 .section2 .right{width: 42%; height: 100vh;}
 .section2 .right .contact_text{font-size: 50px; left: 30px; position: absolute; bottom: 694px; font-weight: 900;}
