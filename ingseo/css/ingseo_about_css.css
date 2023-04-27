@@ -21,9 +21,14 @@ body{overflow-y: hidden;}
 .section1 .right .title span{font-size: 18px; font-weight: 100; margin-left: 10px;}
 .section1 .right .text{position: absolute; font-size: 20px;}
 .section1 .right .text1{top: 42%; left: 100px;}
-.section1 .right .text2{top: 58%; left: 550px; text-indent: 2px;}
-.section1 .right .text2 .name{background: black; color: #f0f0f0; margin-bottom: 30px; width: 200px; }
+.section1 .right .text2{top: 58%; left: 530px; text-indent: 2px;}
+.section1 .right .text2 .name{background: black; color: #f0f0f0; width: 200px; }
 .section1 .right .text2 .name span{margin-left: 35px;}
+
+.gnbtn{display: flex; align-items: center; margin-bottom: 30px;}
+.gnbtn a{width: 30px; cursor: pointer; margin-left: 5px;}
+.gnbtn a:nth-child(3){width: 35px;}
+.gnbtn a img{width: 100%;}
 
 /*section2*/
 .section2{display: flex; overflow: hidden; font-family: "Noto Sans KR"}

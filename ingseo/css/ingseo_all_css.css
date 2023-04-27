@@ -22,4 +22,4 @@ body a{text-decoration: none; color: inherit;}
 /*menu*/
 .menu{height: 10%; position: fixed; top: 0; left: 0; width: 100%; z-index: 100;}
 .menu ul{display: flex; position: absolute; bottom: 0; right: 5%;}
-.menu ul li{padding: 0 5px; font-size: 30px; font-weight: 900; margin: 0 10px;}
+.menu ul a{padding: 0 5px; font-size: 30px; font-weight: 900; margin: 0 10px;}
