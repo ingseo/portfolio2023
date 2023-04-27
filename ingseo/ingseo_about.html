@@ -98,8 +98,23 @@
             </div>
         </div>
     </section>
+    <div class="bg" id="bg"></div>
+    <section class="warning" id="warning">
+        <div class="x-btn" onclick="closeWin()"><span></span><span></span></div>
+        <div class="word">
+            <h1>주의!</h1>
+            <p class="big"><img src="css/ingseo/chrome_logo.png" alt="크롬 로고"><span>크롬(Chrome) 브라우저에 최적화된 사이트입니다.</span>
+            <br><br>
+            크롬 외 브라우저로 이용하실 경우 일부분 표시가 되지 않거나 기능이 정상적으로 작동하지 않을 수 있습니다.</p>
+            <p class="small">이 경고창은 엑스버튼을 누르지 않으셔도 10초 후 자동으로 사라집니다.</p>
+        </div>
+        <div class="bottom">
+            <button class= "today" id="today" onclick="todayCloseWin()"><i class="fas fa-check"></i>오늘그만보기</button>
+        </div>
+    </section>
 </body>
 </html>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="ingseo_about_js.js"></script>
+<script src="../warning/warning_js.js"></script>
 
